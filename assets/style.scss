@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    header {
+        width: 100%;
+        padding: 20px 0 20px 0;
+        background-color: rgb(245, 233, 233);
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: left;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url(./pdp.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            display: block;
+            margin: 0 auto;
+        }
+}
+
+    main {
+        min-height: 600px;
+        width: 100%;
+        background-color: #640D14;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+            article {
+                background-color: #E5E7E6;
+                width: 90%;
+                height: 600px;
+                border-top: 3px solid black;
+                border-bottom: 3px solid black;
+                border-radius: 3%;
+                margin: 10px auto;
+                    h2, h3, h4 {
+                        text-align: center;
+                    }
+                    p {
+                        height: 220px;
+                        padding: 15px;
+                        text-align: justify;
+                        font-weight: 700;
+                    }
+            }
+            section {
+     
+                height: 280px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+    }
+}
+
+
+@media screen and (min-width: 576px){
+    body{
+        main {
+            gap: 20px;
+            article{
+                width: 300px;
+            }
+        }
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+            h1 {
+                text-align: left;
+            }
+            .avatar-topbloc {
+                margin-left: 20px;
+            }
+            
+            .avatar-bottombloc {
+                flex-direction: column;
+                width: 90%;
+                    p {
+                        margin-top: 20px;
+                    }
+            }
+    }
+}
