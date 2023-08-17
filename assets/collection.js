@@ -2,7 +2,7 @@ const carCollection = [
     {
         manufacturer: "Dodge",
         model: "Matador",
-        picture: "url(./assets/dodgematador.jpg)",
+        picture: "url(./assets/img/dodgematador.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molesti aelabore ab facilis similique repellat.",
         production: 1960,
         bodyStyle: "Full Size",
@@ -14,7 +14,7 @@ const carCollection = [
     {
         manufacturer: "Cadillac",
         model: "Sixty Special",
-        picture: "url(./assets/Fleetwood1975.png)",
+        picture: "url(./assets/img/Fleetwood1975.png)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1975,
         bodyStyle: "Full Size",
@@ -25,7 +25,7 @@ const carCollection = [
     {
         manufacturer: "Buick",
         model: "Gran Sport 455",
-        picture: "url(./assets/Buick455.jpg)",
+        picture: "url(./assets/img/Buick455.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1970,
         bodyStyle: "Coupé",
@@ -36,7 +36,7 @@ const carCollection = [
     {
         manufacturer: "Ford",
         model: "Ranchero",
-        picture: "url(./assets/Ranchero57.jpg)",
+        picture: "url(./assets/img/Ranchero57.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1957,
         bodyStyle: "Full Size",
@@ -47,7 +47,7 @@ const carCollection = [
     {
         manufacturer: "Chevrolet",
         model: "C10",
-        picture: "url(./assets/chevroletc10.jpg)",
+        picture: "url(./assets/img/chevroletc10.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1960,
         bodyStyle: "Pick up",
@@ -58,7 +58,7 @@ const carCollection = [
     {
         manufacturer: "Lincoln",
         model: "Continental",
-        picture: "url(./assets/Lincolncontinental.jpg)",
+        picture: "url(./assets/img/Lincolncontinental.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1977,
         bodyStyle: "Full Size",
@@ -69,7 +69,7 @@ const carCollection = [
     {
         manufacturer: "Pontiac",
         model: "Firebird",
-        picture: "url(./assets/Pontiacfirebird.jpg)",
+        picture: "url(./assets/img/Pontiacfirebird.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1967,
         bodyStyle: "Coupé",
@@ -80,7 +80,7 @@ const carCollection = [
     {
         manufacturer: "Willys",
         model: "MB Jeep",
-        picture: "url(./assets/jeepwillys.jpg)",
+        picture: "url(./assets/img/jeepwillys.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1941,
         bodyStyle: "Jeep",
@@ -91,7 +91,7 @@ const carCollection = [
     {
         manufacturer: "Plymouth",
         model: "Fury",
-        picture: "url(./assets/plymouthfury.JPG)",
+        picture: "url(./assets/img/plymouthfury.JPG)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1959,
         bodyStyle: "Full Size",
@@ -102,7 +102,7 @@ const carCollection = [
     {
         manufacturer: "Oldsmobile",
         model: "Toronado",
-        picture: "url(./assets/66toronado.jpg)",
+        picture: "url(./assets/img/66toronado.jpg)",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat at officia? Rem expedita praesentium ex corporis eos maiores corrupti quos tempore delectus molestiae labore ab facilis similique repellat.",
         production: 1966,
         bodyStyle: "Full Size",
